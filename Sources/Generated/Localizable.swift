@@ -14,6 +14,10 @@ public enum Localizable {
   public static let bye = Localizable.tr("Localizable", "bye", fallback: "Bye")
   /// en
   public static let hello = Localizable.tr("Localizable", "hello", fallback: "Hello")
+  /// Sign In
+  public static let signIn = Localizable.tr("Localizable", "sign_in", fallback: "Sign In")
+  /// Sign Out
+  public static let signOut = Localizable.tr("Localizable", "sign_out", fallback: "Sign Out")
 }
 // swiftlint:enable explicit_type_interface function_parameter_count identifier_name line_length
 // swiftlint:enable nesting type_body_length type_name vertical_whitespace_opening_braces
